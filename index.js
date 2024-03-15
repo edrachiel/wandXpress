@@ -3,13 +3,16 @@ const descriptionRoute = require('./routes/descriptions.js');
 const questionRoute = require('./routes/questions.js');
 const specificRoute = require('./routes/specificQuestions.js');
 const touristRoute = require('./routes/touristSpots.js');
+const cors = require("cors");
 
 const app = express();
 const PORT = 8001;
 
+
+
 app.use(express.static('public'));
 app.use(express.json());
-
+app.use(cors());
 
 
 // Mounting descriptionRoute at the /api route path
