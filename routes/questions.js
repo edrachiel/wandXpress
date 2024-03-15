@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const genList = require('../../libs/genList.js');
+const genList = require('../libs/genList.js');
 
 const router = Router();
 

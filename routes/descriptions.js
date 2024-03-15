@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const descriptionList = require('../../libs/descriptionList.js');
+const descriptionList = require('../libs/descriptionList.js');
 
 const router = Router();
 
