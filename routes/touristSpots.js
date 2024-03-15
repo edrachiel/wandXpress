@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const touristList = require("../../libs/touristList.js");
+const touristList = require("../libs/touristList.js");
 
 
 
