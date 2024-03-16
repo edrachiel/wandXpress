@@ -73,7 +73,7 @@ const touristList = [
     },
     {
         id: 10,
-        name: "Coconut Tree Viewpoin",
+        name: "Coconut Tree Viewpoint",
         location: "R366+V37, Siargao Circumferential Rd, Dapa, Surigao del Norte",
         open_hours: "7:30 AM–8:50 PM",
         image: "https://i.imgur.com/eZKQ5eb.png",
