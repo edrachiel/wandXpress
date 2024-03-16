@@ -5,17 +5,17 @@ const router = Router();
 
 
 
-router.get('/questions', (request, response) => {
+router.get('/gen_faqs', (request, response) => {
     response.send(genList);
 });
 
-router.get('/questions/:language', (request, response) => {
+router.get('/gen_faqs/:language', (request, response) => {
     const { language } = request.params;
     const result = genList.find(val => val.language === language);
     response.send(result);
 });
 
-router.post('/questions', (request, response) => {
+router.post('/gen_faqs', (request, response) => {
     console.log(request.body);
     genList.push(request.body);
     response.sendStatus(201);
