@@ -10,9 +10,9 @@
         response.send(specificList);
     });
 
-    router.get('/spec_faqs/:language', (request, response) => {
-        const { language } = request.params;
-        const result = specificList.find(val => val.language === language);
+    router.get('/spec_faqs/:id', (request, response) => {
+        const { id } = request.params;
+        const result = specificList.filter(val => val.id === id);
         response.send(result);
     });
 
