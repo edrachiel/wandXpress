@@ -12,7 +12,8 @@
 
     router.get('/spec_faqs/:id', (request, response) => {
         const { id } = request.params;
-        const result = specificList.filter(val => val.touristspot_number === id);
+        const result_id = parseInt(id);
+        const result = specificList.filter(val => val.touristspot_number === result_id);
         response.send(result);
     });
 
