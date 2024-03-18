@@ -72,12 +72,12 @@ const specificList = [
         touristspot_number: 1
     },
     {
-        id: 8,
+        id: 10,
         question: "¿Hay un cajero automático en Taktak Falls?",
         answer: "Los cajeros automáticos en Santa Mónica, Surigao del Norte, cerca de Taktak Falls, pueden no estar fácilmente disponibles.",
         language: "spanish",
         question_number: 5,
-        touristspot_number: 1
+        touristspot_number: 1 
     },
    
     {
